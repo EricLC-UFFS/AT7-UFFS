@@ -1,0 +1,32 @@
+.main-head {
+    grid-area: header;
+    text-align: center;
+  }
+  .content {
+    grid-area: content;
+    color: green;
+  }
+  .main-nav {
+    grid-area: nav;
+    color: red;
+  }
+
+  .wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "content";
+
+    margin: 0%;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+    background-color: blue; 
+    font-size: 30px;
+    border: 5px solid black;
+    color: aliceblue;
+
+  }
+  
+  
